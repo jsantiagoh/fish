@@ -1,11 +1,12 @@
 # My Fish configuration
 
+Clone the repo
+
 ```
-omf install pure
-omf install fasd
-omf install fzf
-omf install https://github.com/otms61/fish-pet
+clone git@github.com:jsantiagoh/fish.git ~/.config/fish
 ```
+
+Use [Fisherman](https://github.com/fisherman/fisherman) to install packages
 
 ```
 fisher rafaelrinaldi/pure
