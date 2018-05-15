@@ -1,0 +1,1 @@
+eval (gopass completion fish)
