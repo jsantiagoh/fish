@@ -1,0 +1,1 @@
+/Users/santiago/.config/omf/themes/puro/fish_prompt.fish
