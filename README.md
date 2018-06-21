@@ -9,9 +9,9 @@ clone git@github.com:jsantiagoh/fish.git ~/.config/fish
 Use [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) to install packages
 
 ```
-omf fasd
-omf fish-pet
-omf fzf
+omf install fasd
+omf install fish-pet
+omf install fzf
 ```
 
 ## Theme
