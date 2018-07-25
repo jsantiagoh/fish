@@ -1,3 +1,3 @@
-set -U EDITOR /usr/local/bin/nvim
+set -U EDITOR /Applications/Emacs.app/Contents/MacOS/Emacs
 
 alias nv=$EDITOR
