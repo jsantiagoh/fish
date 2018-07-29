@@ -1,2 +1,2 @@
-set -x FZF_DEFAULT_COMMAND 'ag --hidden -g ""'
-set -x FZF_DEFAULT_OPTS "--reverse --inline-info"
+set -x FZF_DEFAULT_COMMAND 'ag -l -g ""'
+set -x FZF_DEFAULT_OPTS "--height 40% --layout=reverse --border"
