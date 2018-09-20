@@ -1,1 +1,1 @@
-set PATH (python -m site --user-base)/bin $PATH
+# set PATH (python -m site --user-base)/bin $PATH

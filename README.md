@@ -10,11 +10,15 @@ Use [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) to install packages
 
 ```
 omf install fasd
-omf install fish-pet
+omf install https://github.com/otms61/fish-pet
 omf install fzf
 ```
 
 ## Theme
+
+```
+omf install pure
+```
 
 ```
 git clone https://github.com/jsantiagoh/puro.git ~/.config/omf/themes/puro 

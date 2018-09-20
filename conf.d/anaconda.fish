@@ -1,1 +1,1 @@
-set PATH $PATH /usr/local/anaconda3/bin 
+# set PATH $PATH /usr/local/anaconda3/bin 
