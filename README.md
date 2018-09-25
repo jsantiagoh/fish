@@ -6,23 +6,22 @@ Clone the repo
 clone git@github.com:jsantiagoh/fish.git ~/.config/fish
 ```
 
-Use [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) to install packages
+Use [Fisherman](https://fisherman.github.io/) to install packages
 
 ```
-omf install fasd
-omf install https://github.com/otms61/fish-pet
-omf install fzf
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+```
+
+```
+fisher fishgretel/fasd
+fisher jethrokuan/fzf
+fisher otms61/fish-pet
 ```
 
 ## Theme
 
 ```
-omf install pure
-```
-
-```
-git clone https://github.com/jsantiagoh/puro.git ~/.config/omf/themes/puro 
-omf install puro
+fisher rafaelrinaldi/pure
 ```
 
 ## FZF
@@ -31,5 +30,4 @@ omf install puro
 brew install fzf
 /usr/local/opt/fzf/install
 ```
-
 

@@ -1,4 +1,5 @@
 function fish_user_key_bindings
-    fzf_key_bindings
-    bind \cs pet-select 
+    bind -M insert \cs pet-select
+
+    # fzf_key_bindings
 end
