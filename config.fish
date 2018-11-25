@@ -1,7 +1,6 @@
 set -U EDITOR /usr/local/bin/nvim
 alias nv=$EDITOR
 
-
 #Fisherman: Changing the installation prefix
 set -g fisher_path $HOME/.config/fisherman_path
 
@@ -19,6 +18,10 @@ if not functions -q fisher
     fish -c fisher
 end
 
-set PATH $HOME/bin $PATH
+if test -d $HOME/bin
+    set PATH $HOME/bin $PATH
+end
 
-source $HOME/.localrc
+if test -e $HOME/.localrc
+    source $HOME/.localrc
+end

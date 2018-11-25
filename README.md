@@ -3,7 +3,7 @@
 Clone the repo
 
 ```
-clone git@github.com:jsantiagoh/fish.git ~/.config/fish
+git clone git@github.com:jsantiagoh/fish.git ~/.config/fish
 ```
 
 Use [Fisherman](https://fisherman.github.io/) to install packages
