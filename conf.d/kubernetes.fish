@@ -1,4 +1,4 @@
-set -x KUBECONFIG $HOME/.kube/config:$HOME/.kube/config-acceptance:$HOME/.kube/config-ci-ie
+set -x KUBECONFIG $HOME/.kube/config:$HOME/.kube/config-prod:$HOME/.kube/config-acceptance:$HOME/.kube/config-ci-ie
 
 # Contexts
 alias kcc='kubectl config get-contexts'

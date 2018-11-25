@@ -1,9 +1,9 @@
 function __search
-    docker ps --format "table {{.Names}}" | tail -n +2
+    pyenv versions --bare --skip-aliases | grep "envs"
 end
 
-function dexec
-    set -l instance (__search | fzf --header "Select the container to connect to")
-    docker exec -ti $instance sh
+function pyenvx
+    set -l instance (__search | fzf --header "Select the virtualenv you want" | xargs)
+    pyenv activate "$instance"
 end
 
