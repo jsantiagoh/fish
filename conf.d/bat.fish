@@ -1,2 +1,2 @@
-set -x BAT_THEME "OneHalfLight"
+set -x BAT_THEME "OneHalfDark"
 alias cat=bat

@@ -1,5 +1,6 @@
 set -U EDITOR /usr/local/bin/nvim
 alias nv=$EDITOR
+alias nvf="$EDITOR (fzf)"
 
 #Fisherman: Changing the installation prefix
 set -g fisher_path $HOME/.config/fisherman_path
