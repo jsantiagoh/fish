@@ -1,4 +1,4 @@
-set -U EDITOR /usr/local/bin/nvim
+set -x EDITOR (which nvim)
 alias nv=$EDITOR
 alias nvf="$EDITOR (fzf)"
 
