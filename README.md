@@ -12,22 +12,25 @@ Use [Fisherman](https://fisherman.github.io/) to install packages
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 ```
 
-```
-fisher fishgretel/fasd
-fisher jethrokuan/fzf
-fisher otms61/fish-pet
-```
-
-## Theme
+## Prompt theme
 
 ```
-fisher rafaelrinaldi/pure
+IlanCosman/tide
 ```
+
+# Extras
 
 ## FZF
+General purpuse fuzzy finder, used for Zoxide's `zi` or fish on `CTRL+R` `CTRL-F`, etc
 
-```
-brew install fzf
-/usr/local/opt/fzf/install
-```
+https://github.com/junegunn/fzf
 
+## Zoxide
+To quickly change directories using `z`
+https://github.com/ajeetdsouza/zoxide
+
+## Bat
+Better cat with syntax coloring
+https://github.com/sharkdp/bat
+
+`set -x BAT_THEME "OneHalfLight"`
